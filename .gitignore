@@ -1,0 +1,4 @@
+app/*.o
+app/morsed
+cgi/*.o
+cgi/*.cgi
