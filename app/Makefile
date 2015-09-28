@@ -3,7 +3,7 @@ CXX= g++
 STRIP = strip
 
 CFLAGS= -fPIC -Wall -O2 -I.
-LDFLAGS=
+LDFLAGS= -lwiringPi
 
 APP_SRCS = morsed.c
 APP_OBJS = $(patsubst %.c, %.o, $(APP_SRCS))
